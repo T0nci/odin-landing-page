@@ -111,13 +111,16 @@ ul.header-links li a {
 
 .main .container {
     padding: 50px 16px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .main h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -143,4 +146,29 @@ ul.header-links li a {
 
 .main .card .card-text {
     color: #777;
+}
+
+/* Quote */
+.quote-section {
+    background-color: #e5e7eb;
+    min-height: fit-content;
+}
+
+.quote-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 16px;
+    max-width: 830px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-section .reference {
+    font-weight: bold;
+    align-self: flex-end;
 }
