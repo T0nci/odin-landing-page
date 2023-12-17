@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-links a {
+    text-decoration: none;
+}
