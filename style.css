@@ -211,3 +211,21 @@ ul.header-links li a {
     font-weight: bold;
     font-size: 16px;
 }
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    min-height: fit-content;
+}
+
+.footer .container {
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
